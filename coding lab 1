@@ -1,0 +1,29 @@
+#include <iostream>
+
+#include <ctime> 
+
+using namespace std; 
+
+int main() {
+//Problem 0
+	//1. 	Take any random number the user enters(cin >> varname)
+	int num;
+	cout << "Please give me a number for problem 0: " << endl;
+	cin >> num;
+	//2. 	Multiply the number by 2
+	num = num * 2;
+	cout << "The number times 2 is: " << num << endl;
+	//3. 	Add 10 to the number
+	num = num + 10;
+	cout << "The number plus 10 is: " << num << endl;
+	//4. 	Divide the number by 2
+	num /= 2;
+	cout << "The number divided by 2 is: " << num << endl;
+	//5. 	Subtract 5 from the number
+	num -= 5;
+	cout << "The number minus 5 is: " << num << endl;
+	//6. 	The result should be the original number
+	cout << "The number " << num << " should be the number you entered" << endl;
+	}
+ system("pause");
+	return 0;
