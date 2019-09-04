@@ -27,3 +27,24 @@ int main() {
 	}
  system("pause");
 	return 0;
+
+//Problem 1:
+	//1.	Take any random number the user enters
+	int num;
+	cout << "Give me a random number for problem 1" << endl;
+	cin >> num;
+	//2.	Add 3 to the number
+	num = num + 3;
+	//3.	Multiply the number by 5
+	num = num * 5;
+	//4.	Subtract 6 from the number
+	num = num -= 6
+	//5.	Divide by 5
+	num = num =/ 2
+	//6.	The result should be the original number
+	cout << "The number " << num << " should be the number you entered" << endl;
+	}
+	system("pause");
+	return 0;
+	
+	
